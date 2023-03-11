@@ -44,16 +44,19 @@
 .service__list-icon {
     color: var(--color-primary);
     margin-top: 2px;
+    transform: scale(2);
 }
 
 .service__list p {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
     .services__container {
-        grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 2rem;
         gap: 2rem;
     }
 
@@ -66,7 +69,9 @@
 
 @media screen and (max-width: 600px) {
     .services__container {
+        display: grid;
         grid-template-columns:  1fr;
+        margin: auto;
         gap: 1.5rem;
     }
 }

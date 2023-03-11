@@ -11,29 +11,29 @@ const Services = () => {
       <div className='container services__container'>
         <article className='service'>
           <div className='service__head'>
-            <h3>UI/UX Design</h3>
+            <h3>Data Management & Analysis</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Predictive Analysis</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Data Visualization</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Business Intelligence</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Data Mining</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Data Modelling</p>
             </li>
           </ul>
         </article>
@@ -48,23 +48,19 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Software Maintenance and Updates</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Technical Support and Training</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Software Customization and Integration</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Cloud-based solutions</p>
             </li>
           </ul>
         </article>
@@ -73,29 +69,25 @@ const Services = () => {
 
         <article className='service'>
           <div className='service__head'>
-            <h3>CONTENT CREATION</h3>
+            <h3>Machine Learning</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Data collection and cleaning</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Model Development</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Model monitoring and Maintenance</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Machine Learning Consulting</p>
             </li>
           </ul>
         </article>

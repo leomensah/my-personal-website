@@ -1,13 +1,15 @@
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 1rem;
+    width: fit-content;
+    height: auto;
 }
 
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
+    padding: 1.2rem 5rem;
+    border-radius: 5rem;
     border: 1px solid transparent;
 }
 
@@ -25,12 +27,19 @@
 
 .experience__content {
     display: grid;
-    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.experience__details {
+    display: flex;
+    flex-direction: row;
 }
 
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
+    margin-right: 10px;
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
@@ -40,7 +49,7 @@
     }
 
     .experience__container > div {
-        width: 80%;
+        width: 100%;
         padding: 2rem;
         margin: 0 auto;
     }
