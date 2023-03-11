@@ -1,6 +1,6 @@
 import React from 'react'
 import './navbar.css'
-import {AiOutlineHome, AiOutlineUser, AiFillFolderOpen} from 'react-icons/ai'
+import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai'
 import {BiBook, BiMessageSquareDetail} from 'react-icons/bi'
 import {BsFillBagCheckFill} from 'react-icons/bs'
 import {TbCertificate} from 'react-icons/tb'
@@ -17,7 +17,6 @@ const Navbar = () => {
       <a href='#services' title='Services' onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine /></a>
       <a href='#portfolio' title='Portfolio' onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><BsFillBagCheckFill /></a>
       <a href='#certificate' title='Certificate' onClick={() => setActiveNav('#certificate')} className={activeNav === '#certificate' ? 'active' : ''}><TbCertificate /></a>
-      <a href='#testimonials' title='Testimonials' onClick={() => setActiveNav('#testimonials')} className={activeNav === '#testimonials' ? 'active' : ''}><AiFillFolderOpen /></a>
       <a href='#contact' title='Contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
     </nav>
   )

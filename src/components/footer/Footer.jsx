@@ -17,9 +17,9 @@ const Footer = () => {
         <li><a href='#contact'>Contact</a></li>
       </ul>
       <div className='footer__socials'>
-        <a href='https://telegram.com'><FaTelegram/></a>
-        <a href='https://www.linkedin.com/in/leonard-mensah/'><FaLinkedinIn/></a>
-        <a href='https://twitter.com/lbmcode'><FaTwitterSquare/></a>
+        <a href='https://t.me/lbmcode' target="_blank"><FaTelegram/></a>
+        <a href='https://www.linkedin.com/in/leonard-mensah/' target="_blank"><FaLinkedinIn/></a>
+        <a href='https://twitter.com/lbmcode' target="_blank"><FaTwitterSquare/></a>
         <a href='https://github.com/leomensah' target='_blank'><FaGithub/></a>
         <a href='https://www.youtube.com/channel/UCS_F1XDz9LoYvMxYZMjbMVg' target='_blank'><AiOutlineYoutube/></a>
       </div>
