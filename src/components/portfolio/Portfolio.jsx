@@ -8,16 +8,16 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'To Do Application',
-    github: 'https://github.com/leomensah/OpenClass',
-    demo: "http://nanakofi.pythonanywhere.com/"
+    github: 'https://github.com/leomensah/django_todo/tree/main/todoClass',
+    demo: "http://leomensah.pythonanywhere.com/"
 
   },
   {
     id: 2,
     image: IMG2,
     title: 'Open Class Application',
-    github: 'https://github.com/leomensah/django_todo/tree/main/todoClass',
-    demo: "http://leomensah.pythonanywhere.com/"
+    github: 'https://github.com/leomensah/OpenClass',
+    demo: "http://nanakofi.pythonanywhere.com/"
 
   }
 ]
