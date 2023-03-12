@@ -16,6 +16,7 @@ Technologies Used
 * CSS
 * JavaScript
 * Reactjs
+
 To view this site, simply navigate to <https://640dd5a6e2d91e7e21ea5794--strong-churros-66f773.netlify.app/>. There's no need to install any additional software or dependencies.
 
 Contributing
