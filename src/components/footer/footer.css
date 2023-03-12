@@ -54,8 +54,12 @@ footer a {
 }
 
 .footer__copyright {
-    margin-bottom: 4rem;
-    color: var(--color-bg);
+    margin-bottom: 8rem;
+    color: var(--color-primary);
+}
+.footer__copyright small {
+    color: aqua;
+    font-size: medium;
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
